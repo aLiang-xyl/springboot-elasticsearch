@@ -1,0 +1,8 @@
+spring: 
+  elasticsearch:
+    rest:
+      username: elastic
+      password: Es123456
+      uris:      - http://centos7docker:9200
+      - http://centos7docker:9202
+      - http://centos7docker:9203
